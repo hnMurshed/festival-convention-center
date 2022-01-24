@@ -12,7 +12,7 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -53,12 +53,12 @@
 
           <!-- carousel sliding -->
           <section class="carousel-section">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div id="carousel-slider" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active" id="carousel-1">
@@ -90,11 +90,11 @@
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -222,6 +222,7 @@
                 </div>
               </div>
             </div>
+            <!-- Corporate event column -->
             <div class="col">
               <div class="card h-100 border-0">
                 <div class="card-body">
@@ -259,10 +260,91 @@
           </div>
         </div>
       </section>
+
+      <!-- FAQ section start -->
+      <section class="FAQ-section py-5">
+        <div class="container">
+          <h2 class="section-name text-center mb-5">Frequently Asked Questions</h2>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="accordion accordion-col" id="accordionExample">
+
+                <!-- first item -->
+                <div class="accordion-item" style="border: 1px solid #D5E5FB;">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What’s the difference between event design and event planning?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Event design encompasses the more creative side of event management. While a planner focuses on organization, we focus on the decor of the event. From draping to lighting, furniture, and centerpieces, it is our job to ensure your event is truly stunning.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2nd item -->
+                <div class="accordion-item" style="border: 1px solid #D5E5FB;">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      How early do we need to start planning an event?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>The time to plan events varies from a few weeks to years. If your event is small, you can probably put it together in a month or two. A good rule of thumb for any major event, from weddings to a company holiday party, is six months.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3rd item -->
+                <div class="accordion-item" style="border: 1px solid #D5E5FB;">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What is your refund and cancellation policy?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Refund/cancellation policies applicable in the following conditions: In case, the buyer cancels the order online before the product has been shipped, the entire order amount will be refunded. Total order amount after deduction of shipment and handling charges will be refunded.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 4th item -->
+                <div class="accordion-item" style="border: 1px solid #D5E5FB;">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      How do you keep budgets on track?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Before begin, I gather up all my financial statements, including calculate your income, create a list of monthly expenses, determine fixed and variable expenses, total my monthly income and expenses, and then make adjustments to expenses.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img width="564px" class="img-fluid rounded-3" src="images/faq-pic.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- footer part -->
-    <footer></footer>
+    <footer class="bg-black text-white py-5">
+      <div class="container d-flex justify-content-between align-items-center">
+        <small>© 2020 bike. All rights reserved</small>
+        <div class="d-flex flex-column align-items-center">
+          <span>Get the App</span>
+          <a class="rounded-3 border-1 border-white border my-2" href="https://www.apple.com/apple-books/" target="_blank"><img src="icons/rsz_1apple_2.png" alt="Apple logo"></a>
+          <a class="rounded-3 border-1 border-white border" href="https://play.google.com/store/apps/details?id=learn.programming.courses" target="_blank"><img src="icons/play.png" alt="Google play logo"></a>
+        </div>
+      </div>
+    </footer>
 
 
     <!-- Bootstrap Script -->

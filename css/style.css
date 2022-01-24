@@ -91,3 +91,15 @@ header .brand-name {
 #wedding-plus .check {
     background-color: #5293F6;
 }
+
+/* FAQ section starts */
+.FAQ-section .accordion-col {
+    font-family: 'Inter', sans-serif;
+}
+.FAQ-section .accordion-col h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #383838;
+}
+
+/* footer start */

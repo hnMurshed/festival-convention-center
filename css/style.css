@@ -100,6 +100,52 @@ header .brand-name {
     background-color: #5293F6;
 }
 
+/* exivision section  */
+#exivision-1 {
+    background-image: url('../images/exivision-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#exivision-2 {
+    background-image: url('../images/exivision-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#exivision-3 {
+    background-image: url('../images/exivision-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#exivision-4 {
+    background-image: url('../images/exivision-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#exivision-5 {
+    background-image: url('../images/exivision-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#exivision-6 {
+    background-image: url('../images/exivision-6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.exivision {
+    padding-top: 250px;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+.exivision:hover {
+    transform: translateY(-10px);
+}
+.exivision h4 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
 /* FAQ section starts */
 .FAQ-section .accordion-col {
     font-family: 'Inter', sans-serif;

@@ -1,0 +1,29 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header part */
+header .navbar a {
+    color: #3E3E3E;
+}
+header .brand-name {
+    font-size: 22px;
+}
+
+/* carousel sliding section */
+#carousel-1 {
+    background-image: url('../images/banner-1.png');
+    padding: 250px 0;
+}
+#carousel-2 {
+    background-image: url('../images/banner-2.jpg');
+    padding: 250px 0;
+}
+#carousel-3 {
+    background-image: url('../images/banner-3.jpg');
+    padding: 250px 0;
+}
+#carousel-4 {
+    background-image: url('../images/banner-4.jpg');
+    padding: 250px 0;
+}

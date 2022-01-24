@@ -13,15 +13,23 @@ header .brand-name {
 /* carousel sliding section */
 #carousel-1 {
     background-image: url('../images/banner-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #carousel-2 {
     background-image: url('../images/banner-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #carousel-3 {
     background-image: url('../images/banner-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #carousel-4 {
     background-image: url('../images/banner-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .carousel-content {
     padding-top: 300px;

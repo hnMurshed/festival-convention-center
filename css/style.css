@@ -40,3 +40,54 @@ header .brand-name {
     background-color: white;
     color: #3F87F5;
 }
+
+/* Our package section start */
+.package-section:not(.item-text) {
+    font-family: 'Roboto', sans-serif;
+}
+.section-name {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 600;
+}
+.package-section .section-name {
+    margin-bottom: 100px;
+}
+.package-section .price {
+    font-size: 36px;
+    color: #231D4F;
+}
+.package-section .title {
+    font-size: 28px;
+    color: #231D4F;
+}
+.package-section ul .check {
+    background-color: #EDECF9;
+    color: #5243C2;
+    font-size: 12px;
+    border-radius: 50%;
+}
+.package-section .item-text {
+    font-size: 15px;
+    color: #848199;
+}
+.package-section ul .item-text {
+    margin-left: 5px;
+}
+.package-section .choose-btn {
+    background-color: #FEF5FA;
+    color: #3F87F5;
+}
+#wedding-plus, .wedding-plus-content {
+    background-color: rgba(63, 135, 245, 1);
+    border-radius: 12px;
+}
+#wedding-plus .wedding-plus-content {
+    transform: translateY(-40px)
+}
+.wedding-plus-content .badge {
+    left: 90%;
+}
+#wedding-plus .check {
+    background-color: #5293F6;
+}

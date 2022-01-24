@@ -13,17 +13,30 @@ header .brand-name {
 /* carousel sliding section */
 #carousel-1 {
     background-image: url('../images/banner-1.png');
-    padding: 250px 0;
 }
 #carousel-2 {
     background-image: url('../images/banner-2.jpg');
-    padding: 250px 0;
 }
 #carousel-3 {
     background-image: url('../images/banner-3.jpg');
-    padding: 250px 0;
 }
 #carousel-4 {
     background-image: url('../images/banner-4.jpg');
-    padding: 250px 0;
+}
+.carousel-content {
+    padding-top: 300px;
+    padding-bottom: 60px;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.carousel-section .carousel-heading {
+    font-size: 48px;
+}
+.carousel-section p {
+    font-weight: 300;
+}
+.carousel-section .book-now-btn {
+    background-color: white;
+    color: #3F87F5;
 }
